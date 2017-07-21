@@ -6,7 +6,12 @@ target 'Discover' do
   use_frameworks!
 
   # Pods for Discover
+  
   pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Messaging'
   target 'DiscoverTests' do
     inherit! :search_paths
     # Pods for testing

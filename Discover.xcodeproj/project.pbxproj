@@ -9,8 +9,16 @@
 /* Begin PBXBuildFile section */
 		6845B49B5A1927561A201468 /* Pods_DiscoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FE01BD85DA399D5A5531C /* Pods_DiscoverUITests.framework */; };
 		7B16722080FC856884ED7194 /* Pods_Discover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D1BB6984BB9A77DECF16BF /* Pods_Discover.framework */; };
+		CF1E966E1F21172B002BAC55 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E966D1F21172B002BAC55 /* LoginVC.swift */; };
+		CF1E96701F211933002BAC55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF1E966F1F211933002BAC55 /* GoogleService-Info.plist */; };
+		CF1E96721F21540B002BAC55 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96711F21540B002BAC55 /* SignUpVC.swift */; };
+		CF1E96861F215AAF002BAC55 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E967D1F215AAF002BAC55 /* GeoFire.m */; };
+		CF1E96871F215AAF002BAC55 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E967F1F215AAF002BAC55 /* GFBase32Utils.m */; };
+		CF1E96881F215AAF002BAC55 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96811F215AAF002BAC55 /* GFGeoHash.m */; };
+		CF1E96891F215AAF002BAC55 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96831F215AAF002BAC55 /* GFGeoHashQuery.m */; };
+		CF1E968A1F215AAF002BAC55 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96851F215AAF002BAC55 /* GFQuery.m */; };
+		CF1E968D1F215D0A002BAC55 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E968C1F215D0A002BAC55 /* MapVC.swift */; };
 		CF79BF0B1F1FFC82003B78AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */; };
-		CF79BF0D1F1FFC82003B78AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BF0C1F1FFC82003B78AF /* ViewController.swift */; };
 		CF79BF101F1FFC83003B78AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF0E1F1FFC83003B78AF /* Main.storyboard */; };
 		CF79BF121F1FFC83003B78AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF111F1FFC83003B78AF /* Assets.xcassets */; };
 		CF79BF151F1FFC83003B78AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF131F1FFC83003B78AF /* LaunchScreen.storyboard */; };
@@ -44,9 +52,28 @@
 		860FE01BD85DA399D5A5531C /* Pods_DiscoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AA03383CC468B2A0E348F1 /* Pods_DiscoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB63A24183737FEBC03F9F22 /* Pods-Discover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Discover/Pods-Discover.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1E966D1F21172B002BAC55 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CF1E966F1F211933002BAC55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF1E96711F21540B002BAC55 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CF1E96761F215AAF002BAC55 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		CF1E96771F215AAF002BAC55 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		CF1E96781F215AAF002BAC55 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		CF1E96791F215AAF002BAC55 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		CF1E967A1F215AAF002BAC55 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		CF1E967C1F215AAF002BAC55 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		CF1E967D1F215AAF002BAC55 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		CF1E967E1F215AAF002BAC55 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		CF1E967F1F215AAF002BAC55 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		CF1E96801F215AAF002BAC55 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		CF1E96811F215AAF002BAC55 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		CF1E96821F215AAF002BAC55 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		CF1E96831F215AAF002BAC55 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		CF1E96841F215AAF002BAC55 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		CF1E96851F215AAF002BAC55 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		CF1E968B1F215C81002BAC55 /* Discover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discover-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF1E968C1F215D0A002BAC55 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		CF79BF071F1FFC81003B78AF /* Discover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF79BF0C1F1FFC82003B78AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF79BF0F1F1FFC83003B78AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF79BF111F1FFC83003B78AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF79BF141F1FFC83003B78AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,6 +139,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF1E966C1F211707002BAC55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E966D1F21172B002BAC55 /* LoginVC.swift */,
+				CF1E96711F21540B002BAC55 /* SignUpVC.swift */,
+				CF1E968C1F215D0A002BAC55 /* MapVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CF1E96731F21567E002BAC55 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				CF79BF161F1FFC84003B78AF /* Info.plist */,
+				CF1E966F1F211933002BAC55 /* GoogleService-Info.plist */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		CF1E96741F215AAF002BAC55 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E96751F215AAF002BAC55 /* API */,
+				CF1E967A1F215AAF002BAC55 /* GeoFire-Prefix.pch */,
+				CF1E967B1F215AAF002BAC55 /* Implementation */,
+			);
+			name = GeoFire;
+			path = "../../geofire-objc/GeoFire";
+			sourceTree = "<group>";
+		};
+		CF1E96751F215AAF002BAC55 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E96761F215AAF002BAC55 /* GeoFire.h */,
+				CF1E96771F215AAF002BAC55 /* GFCircleQuery.h */,
+				CF1E96781F215AAF002BAC55 /* GFQuery.h */,
+				CF1E96791F215AAF002BAC55 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CF1E967B1F215AAF002BAC55 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E967C1F215AAF002BAC55 /* GeoFire+Private.h */,
+				CF1E967D1F215AAF002BAC55 /* GeoFire.m */,
+				CF1E967E1F215AAF002BAC55 /* GFBase32Utils.h */,
+				CF1E967F1F215AAF002BAC55 /* GFBase32Utils.m */,
+				CF1E96801F215AAF002BAC55 /* GFGeoHash.h */,
+				CF1E96811F215AAF002BAC55 /* GFGeoHash.m */,
+				CF1E96821F215AAF002BAC55 /* GFGeoHashQuery.h */,
+				CF1E96831F215AAF002BAC55 /* GFGeoHashQuery.m */,
+				CF1E96841F215AAF002BAC55 /* GFQuery+Private.h */,
+				CF1E96851F215AAF002BAC55 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 		CF79BEFE1F1FFC7F003B78AF = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +222,14 @@
 		CF79BF091F1FFC82003B78AF /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				CF1E966C1F211707002BAC55 /* Controllers */,
 				CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */,
-				CF79BF0C1F1FFC82003B78AF /* ViewController.swift */,
 				CF79BF0E1F1FFC83003B78AF /* Main.storyboard */,
-				CF79BF111F1FFC83003B78AF /* Assets.xcassets */,
 				CF79BF131F1FFC83003B78AF /* LaunchScreen.storyboard */,
-				CF79BF161F1FFC84003B78AF /* Info.plist */,
+				CF79BF111F1FFC83003B78AF /* Assets.xcassets */,
+				CF1E96731F21567E002BAC55 /* Info */,
+				CF1E96741F215AAF002BAC55 /* GeoFire */,
+				CF1E968B1F215C81002BAC55 /* Discover-Bridging-Header.h */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -285,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF79BF151F1FFC83003B78AF /* LaunchScreen.storyboard in Resources */,
+				CF1E96701F211933002BAC55 /* GoogleService-Info.plist in Resources */,
 				CF79BF121F1FFC83003B78AF /* Assets.xcassets in Resources */,
 				CF79BF101F1FFC83003B78AF /* Main.storyboard in Resources */,
 			);
@@ -355,7 +443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6B50E57F5F0AACC500BFF36C /* [CP] Copy Pods Resources */ = {
@@ -388,7 +476,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B2E4B12A7CD2BA404AD0EB43 /* [CP] Check Pods Manifest.lock */ = {
@@ -406,7 +494,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C8D95647CF219EE65885BCA0 /* [CP] Embed Pods Frameworks */ = {
@@ -461,8 +549,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF79BF0D1F1FFC82003B78AF /* ViewController.swift in Sources */,
+				CF1E966E1F21172B002BAC55 /* LoginVC.swift in Sources */,
+				CF1E96871F215AAF002BAC55 /* GFBase32Utils.m in Sources */,
+				CF1E96891F215AAF002BAC55 /* GFGeoHashQuery.m in Sources */,
+				CF1E96861F215AAF002BAC55 /* GeoFire.m in Sources */,
+				CF1E96721F21540B002BAC55 /* SignUpVC.swift in Sources */,
+				CF1E96881F215AAF002BAC55 /* GFGeoHash.m in Sources */,
 				CF79BF0B1F1FFC82003B78AF /* AppDelegate.swift in Sources */,
+				CF1E968D1F215D0A002BAC55 /* MapVC.swift in Sources */,
+				CF1E968A1F215AAF002BAC55 /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +717,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.Discover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Discover/Discover-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -636,6 +732,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.Discover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Discover/Discover-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -721,6 +818,7 @@
 				CF79BF311F1FFC85003B78AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF79BF321F1FFC85003B78AF /* Build configuration list for PBXNativeTarget "DiscoverTests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +827,7 @@
 				CF79BF341F1FFC85003B78AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF79BF351F1FFC85003B78AF /* Build configuration list for PBXNativeTarget "DiscoverUITests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +836,7 @@
 				CF79BF371F1FFC85003B78AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
