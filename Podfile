@@ -12,6 +12,8 @@ target 'Discover' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Messaging'
+  pod 'Firebase/Storage'
+  
   target 'DiscoverTests' do
     inherit! :search_paths
     # Pods for testing

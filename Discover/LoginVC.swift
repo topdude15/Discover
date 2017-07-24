@@ -32,4 +32,7 @@ class LoginVC: UIViewController, UITextFieldDelegate {
             })
         }
     }
+    @IBAction func signUp(_ sender: Any) {
+        self.performSegue(withIdentifier: "register", sender: nil)
+    }
 }

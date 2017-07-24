@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Unearthed needs to use your photos to upload a profile picture!</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Discover needs to use your location to find users near you!</string>
+	<string>Unearthed needs to use your location to find users near you!</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

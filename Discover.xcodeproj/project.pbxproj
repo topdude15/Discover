@@ -18,10 +18,13 @@
 		CF1E96891F215AAF002BAC55 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96831F215AAF002BAC55 /* GFGeoHashQuery.m */; };
 		CF1E968A1F215AAF002BAC55 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96851F215AAF002BAC55 /* GFQuery.m */; };
 		CF1E968D1F215D0A002BAC55 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E968C1F215D0A002BAC55 /* MapVC.swift */; };
+		CF1E96901F22E720002BAC55 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E968F1F22E720002BAC55 /* RoundedButton.swift */; };
+		CF1E96941F22EE8F002BAC55 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96931F22EE8F002BAC55 /* CircleImage.swift */; };
+		CF1E96961F243811002BAC55 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E96951F243811002BAC55 /* ShadowView.swift */; };
+		CF5255351F266B6A00702383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5255251F266B6A00702383 /* LaunchScreen.storyboard */; };
+		CF5255371F266B6A00702383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5255271F266B6A00702383 /* Main.storyboard */; };
 		CF79BF0B1F1FFC82003B78AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */; };
-		CF79BF101F1FFC83003B78AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF0E1F1FFC83003B78AF /* Main.storyboard */; };
 		CF79BF121F1FFC83003B78AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF111F1FFC83003B78AF /* Assets.xcassets */; };
-		CF79BF151F1FFC83003B78AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF79BF131F1FFC83003B78AF /* LaunchScreen.storyboard */; };
 		CF79BF201F1FFC85003B78AF /* DiscoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BF1F1F1FFC85003B78AF /* DiscoverTests.swift */; };
 		CF79BF2B1F1FFC85003B78AF /* DiscoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BF2A1F1FFC85003B78AF /* DiscoverUITests.swift */; };
 		E88ABB5D71EF84495F9FA138 /* Pods_DiscoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA03383CC468B2A0E348F1 /* Pods_DiscoverTests.framework */; };
@@ -72,11 +75,14 @@
 		CF1E96851F215AAF002BAC55 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
 		CF1E968B1F215C81002BAC55 /* Discover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discover-Bridging-Header.h"; sourceTree = "<group>"; };
 		CF1E968C1F215D0A002BAC55 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		CF1E968F1F22E720002BAC55 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CF1E96931F22EE8F002BAC55 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CF1E96951F243811002BAC55 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		CF5255251F266B6A00702383 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF5255271F266B6A00702383 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CF79BF071F1FFC81003B78AF /* Discover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF79BF0F1F1FFC83003B78AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF79BF111F1FFC83003B78AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF79BF141F1FFC83003B78AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF79BF161F1FFC84003B78AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF79BF1B1F1FFC85003B78AF /* DiscoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79BF1F1F1FFC85003B78AF /* DiscoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTests.swift; sourceTree = "<group>"; };
@@ -197,6 +203,23 @@
 			path = Implementation;
 			sourceTree = "<group>";
 		};
+		CF1E968E1F22E705002BAC55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E968F1F22E720002BAC55 /* RoundedButton.swift */,
+				CF1E96931F22EE8F002BAC55 /* CircleImage.swift */,
+				CF1E96951F243811002BAC55 /* ShadowView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CF5255011F266A4300702383 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CF79BEFE1F1FFC7F003B78AF = {
 			isa = PBXGroup;
 			children = (
@@ -222,10 +245,12 @@
 		CF79BF091F1FFC82003B78AF /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				CF5255011F266A4300702383 /* Models */,
+				CF1E968E1F22E705002BAC55 /* Views */,
 				CF1E966C1F211707002BAC55 /* Controllers */,
 				CF79BF0A1F1FFC82003B78AF /* AppDelegate.swift */,
-				CF79BF0E1F1FFC83003B78AF /* Main.storyboard */,
-				CF79BF131F1FFC83003B78AF /* LaunchScreen.storyboard */,
+				CF5255271F266B6A00702383 /* Main.storyboard */,
+				CF5255251F266B6A00702383 /* LaunchScreen.storyboard */,
 				CF79BF111F1FFC83003B78AF /* Assets.xcassets */,
 				CF1E96731F21567E002BAC55 /* Info */,
 				CF1E96741F215AAF002BAC55 /* GeoFire */,
@@ -371,10 +396,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF79BF151F1FFC83003B78AF /* LaunchScreen.storyboard in Resources */,
+				CF5255351F266B6A00702383 /* LaunchScreen.storyboard in Resources */,
+				CF5255371F266B6A00702383 /* Main.storyboard in Resources */,
 				CF1E96701F211933002BAC55 /* GoogleService-Info.plist in Resources */,
 				CF79BF121F1FFC83003B78AF /* Assets.xcassets in Resources */,
-				CF79BF101F1FFC83003B78AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,13 +574,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1E96961F243811002BAC55 /* ShadowView.swift in Sources */,
 				CF1E966E1F21172B002BAC55 /* LoginVC.swift in Sources */,
+				CF1E96901F22E720002BAC55 /* RoundedButton.swift in Sources */,
 				CF1E96871F215AAF002BAC55 /* GFBase32Utils.m in Sources */,
 				CF1E96891F215AAF002BAC55 /* GFGeoHashQuery.m in Sources */,
 				CF1E96861F215AAF002BAC55 /* GeoFire.m in Sources */,
 				CF1E96721F21540B002BAC55 /* SignUpVC.swift in Sources */,
 				CF1E96881F215AAF002BAC55 /* GFGeoHash.m in Sources */,
 				CF79BF0B1F1FFC82003B78AF /* AppDelegate.swift in Sources */,
+				CF1E96941F22EE8F002BAC55 /* CircleImage.swift in Sources */,
 				CF1E968D1F215D0A002BAC55 /* MapVC.swift in Sources */,
 				CF1E968A1F215AAF002BAC55 /* GFQuery.m in Sources */,
 			);
@@ -591,25 +619,6 @@
 			targetProxy = CF79BF271F1FFC85003B78AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CF79BF0E1F1FFC83003B78AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF79BF0F1F1FFC83003B78AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF79BF131F1FFC83003B78AF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF79BF141F1FFC83003B78AF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CF79BF2D1F1FFC85003B78AF /* Debug */ = {
